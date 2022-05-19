@@ -28,7 +28,7 @@ const CardBody = ({post, theme}) => {
 
             </div>
             {
-                post.images.length > 0 && <Carousel images={post.images} id={post._id} />
+                post.images.length > -1 && <Carousel images={post.images} id={post._id} />
             }
         </div>
     )
